@@ -96,8 +96,8 @@ public:
     /// \brief Unbind the socket from the local port to which it is bound
     ///
     /// The port that the socket was previously using is immediately
-    /// available after this function is called. If the
-    /// socket is not bound to a port, this function has no effect.
+    /// unavailable after this function is called.
+    /// If the socket is not bound to a port, this function has no effect.
     ///
     /// \see bind
     ///
